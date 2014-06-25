@@ -1,0 +1,52 @@
+# Dependencies
+markdown:	redcarpet
+highlighter:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Brent Schneider
+tagline:	'web craftsmen'
+description:	'web design, development for the modern web.'
+url:		http://brentschneider.net
+
+author:
+  name:		'Brent Schneider'
+  url:		https://google.com/+brentschneider
+
+paginate:	5
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/webmedic
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/brentschneider
+    desc:	Fork me on github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/+brentschneider
+    desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://brentschneider.net/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+copyright:
+  author:	github
+  url:		http://github.org
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
