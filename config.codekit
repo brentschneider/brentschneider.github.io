@@ -2,1460 +2,1460 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/components\/accordion.css": {
+	"\/weather\/components\/accordion.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/accordion.css",
+		"inputAbbreviatedPath": "\/weather\/components\/accordion.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/accordion.js": {
+	"\/weather\/components\/accordion.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/accordion.js",
-		"outputAbbreviatedPath": "\/components\/min\/accordion-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/accordion.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/accordion-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/accordion.min.css": {
+	"\/weather\/components\/accordion.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/accordion.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/accordion.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/accordion.min.js": {
+	"\/weather\/components\/accordion.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/accordion.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/accordion.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/accordion.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/accordion.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/ad.css": {
+	"\/weather\/components\/ad.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/ad.css",
+		"inputAbbreviatedPath": "\/weather\/components\/ad.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/ad.min.css": {
+	"\/weather\/components\/ad.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/ad.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/ad.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/api.js": {
+	"\/weather\/components\/api.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/api.js",
-		"outputAbbreviatedPath": "\/components\/min\/api-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/api.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/api-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/api.min.js": {
+	"\/weather\/components\/api.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/api.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/api.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/api.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/api.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/breadcrumb.css": {
+	"\/weather\/components\/breadcrumb.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/breadcrumb.css",
+		"inputAbbreviatedPath": "\/weather\/components\/breadcrumb.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/breadcrumb.min.css": {
+	"\/weather\/components\/breadcrumb.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/breadcrumb.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/breadcrumb.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/button.css": {
+	"\/weather\/components\/button.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/button.css",
+		"inputAbbreviatedPath": "\/weather\/components\/button.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/button.min.css": {
+	"\/weather\/components\/button.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/button.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/button.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/card.css": {
+	"\/weather\/components\/card.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/card.css",
+		"inputAbbreviatedPath": "\/weather\/components\/card.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/card.min.css": {
+	"\/weather\/components\/card.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/card.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/card.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/checkbox.css": {
+	"\/weather\/components\/checkbox.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/checkbox.css",
+		"inputAbbreviatedPath": "\/weather\/components\/checkbox.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/checkbox.js": {
+	"\/weather\/components\/checkbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/checkbox.js",
-		"outputAbbreviatedPath": "\/components\/min\/checkbox-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/checkbox.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/checkbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/checkbox.min.css": {
+	"\/weather\/components\/checkbox.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/checkbox.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/checkbox.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/checkbox.min.js": {
+	"\/weather\/components\/checkbox.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/checkbox.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/checkbox.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/checkbox.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/checkbox.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/colorize.js": {
+	"\/weather\/components\/colorize.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/colorize.js",
-		"outputAbbreviatedPath": "\/components\/min\/colorize-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/colorize.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/colorize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/colorize.min.js": {
+	"\/weather\/components\/colorize.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/colorize.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/colorize.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/colorize.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/colorize.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/comment.css": {
+	"\/weather\/components\/comment.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/comment.css",
+		"inputAbbreviatedPath": "\/weather\/components\/comment.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/comment.min.css": {
+	"\/weather\/components\/comment.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/comment.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/comment.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/container.css": {
+	"\/weather\/components\/container.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/container.css",
+		"inputAbbreviatedPath": "\/weather\/components\/container.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/container.min.css": {
+	"\/weather\/components\/container.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/container.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/container.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dimmer.css": {
+	"\/weather\/components\/dimmer.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dimmer.css",
+		"inputAbbreviatedPath": "\/weather\/components\/dimmer.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dimmer.js": {
+	"\/weather\/components\/dimmer.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dimmer.js",
-		"outputAbbreviatedPath": "\/components\/min\/dimmer-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/dimmer.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/dimmer-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/dimmer.min.css": {
+	"\/weather\/components\/dimmer.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dimmer.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/dimmer.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dimmer.min.js": {
+	"\/weather\/components\/dimmer.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dimmer.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/dimmer.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/dimmer.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/dimmer.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/divider.css": {
+	"\/weather\/components\/divider.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/divider.css",
+		"inputAbbreviatedPath": "\/weather\/components\/divider.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/divider.min.css": {
+	"\/weather\/components\/divider.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/divider.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/divider.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dropdown.css": {
+	"\/weather\/components\/dropdown.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dropdown.css",
+		"inputAbbreviatedPath": "\/weather\/components\/dropdown.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dropdown.js": {
+	"\/weather\/components\/dropdown.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dropdown.js",
-		"outputAbbreviatedPath": "\/components\/min\/dropdown-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/dropdown.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/dropdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/dropdown.min.css": {
+	"\/weather\/components\/dropdown.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dropdown.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/dropdown.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/dropdown.min.js": {
+	"\/weather\/components\/dropdown.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/dropdown.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/dropdown.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/dropdown.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/dropdown.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/embed.css": {
+	"\/weather\/components\/embed.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/embed.css",
+		"inputAbbreviatedPath": "\/weather\/components\/embed.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/embed.js": {
+	"\/weather\/components\/embed.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/embed.js",
-		"outputAbbreviatedPath": "\/components\/min\/embed-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/embed.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/embed-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/embed.min.css": {
+	"\/weather\/components\/embed.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/embed.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/embed.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/embed.min.js": {
+	"\/weather\/components\/embed.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/embed.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/embed.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/embed.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/embed.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/feed.css": {
+	"\/weather\/components\/feed.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/feed.css",
+		"inputAbbreviatedPath": "\/weather\/components\/feed.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/feed.min.css": {
+	"\/weather\/components\/feed.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/feed.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/feed.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/flag.css": {
+	"\/weather\/components\/flag.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/flag.css",
+		"inputAbbreviatedPath": "\/weather\/components\/flag.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/flag.min.css": {
+	"\/weather\/components\/flag.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/flag.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/flag.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/form.css": {
+	"\/weather\/components\/form.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/form.css",
+		"inputAbbreviatedPath": "\/weather\/components\/form.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/form.js": {
+	"\/weather\/components\/form.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/form.js",
-		"outputAbbreviatedPath": "\/components\/min\/form-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/form.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/form-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/form.min.css": {
+	"\/weather\/components\/form.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/form.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/form.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/form.min.js": {
+	"\/weather\/components\/form.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/form.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/form.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/form.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/form.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/grid.css": {
+	"\/weather\/components\/grid.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/grid.css",
+		"inputAbbreviatedPath": "\/weather\/components\/grid.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/grid.min.css": {
+	"\/weather\/components\/grid.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/grid.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/grid.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/header.css": {
+	"\/weather\/components\/header.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/header.css",
+		"inputAbbreviatedPath": "\/weather\/components\/header.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/header.min.css": {
+	"\/weather\/components\/header.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/header.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/header.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/icon.css": {
+	"\/weather\/components\/icon.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/icon.css",
+		"inputAbbreviatedPath": "\/weather\/components\/icon.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/icon.min.css": {
+	"\/weather\/components\/icon.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/icon.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/icon.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/image.css": {
+	"\/weather\/components\/image.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/image.css",
+		"inputAbbreviatedPath": "\/weather\/components\/image.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/image.min.css": {
+	"\/weather\/components\/image.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/image.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/image.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/input.css": {
+	"\/weather\/components\/input.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/input.css",
+		"inputAbbreviatedPath": "\/weather\/components\/input.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/input.min.css": {
+	"\/weather\/components\/input.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/input.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/input.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/item.css": {
+	"\/weather\/components\/item.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/item.css",
+		"inputAbbreviatedPath": "\/weather\/components\/item.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/item.min.css": {
+	"\/weather\/components\/item.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/item.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/item.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/label.css": {
+	"\/weather\/components\/label.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/label.css",
+		"inputAbbreviatedPath": "\/weather\/components\/label.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/label.min.css": {
+	"\/weather\/components\/label.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/label.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/label.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/list.css": {
+	"\/weather\/components\/list.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/list.css",
+		"inputAbbreviatedPath": "\/weather\/components\/list.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/list.min.css": {
+	"\/weather\/components\/list.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/list.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/list.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/loader.css": {
+	"\/weather\/components\/loader.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/loader.css",
+		"inputAbbreviatedPath": "\/weather\/components\/loader.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/loader.min.css": {
+	"\/weather\/components\/loader.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/loader.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/loader.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/menu.css": {
+	"\/weather\/components\/menu.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/menu.css",
+		"inputAbbreviatedPath": "\/weather\/components\/menu.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/menu.min.css": {
+	"\/weather\/components\/menu.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/menu.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/menu.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/message.css": {
+	"\/weather\/components\/message.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/message.css",
+		"inputAbbreviatedPath": "\/weather\/components\/message.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/message.min.css": {
+	"\/weather\/components\/message.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/message.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/message.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/modal.css": {
+	"\/weather\/components\/modal.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/modal.css",
+		"inputAbbreviatedPath": "\/weather\/components\/modal.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/modal.js": {
+	"\/weather\/components\/modal.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/modal.js",
-		"outputAbbreviatedPath": "\/components\/min\/modal-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/modal.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/modal-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/modal.min.css": {
+	"\/weather\/components\/modal.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/modal.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/modal.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/modal.min.js": {
+	"\/weather\/components\/modal.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/modal.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/modal.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/modal.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/modal.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/nag.css": {
+	"\/weather\/components\/nag.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/nag.css",
+		"inputAbbreviatedPath": "\/weather\/components\/nag.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/nag.js": {
+	"\/weather\/components\/nag.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/nag.js",
-		"outputAbbreviatedPath": "\/components\/min\/nag-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/nag.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/nag-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/nag.min.css": {
+	"\/weather\/components\/nag.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/nag.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/nag.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/nag.min.js": {
+	"\/weather\/components\/nag.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/nag.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/nag.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/nag.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/nag.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/popup.css": {
+	"\/weather\/components\/popup.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/popup.css",
+		"inputAbbreviatedPath": "\/weather\/components\/popup.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/popup.js": {
+	"\/weather\/components\/popup.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/popup.js",
-		"outputAbbreviatedPath": "\/components\/min\/popup-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/popup.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/popup-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/popup.min.css": {
+	"\/weather\/components\/popup.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/popup.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/popup.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/popup.min.js": {
+	"\/weather\/components\/popup.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/popup.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/popup.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/popup.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/popup.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/progress.css": {
+	"\/weather\/components\/progress.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/progress.css",
+		"inputAbbreviatedPath": "\/weather\/components\/progress.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/progress.js": {
+	"\/weather\/components\/progress.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/progress.js",
-		"outputAbbreviatedPath": "\/components\/min\/progress-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/progress.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/progress-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/progress.min.css": {
+	"\/weather\/components\/progress.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/progress.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/progress.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/progress.min.js": {
+	"\/weather\/components\/progress.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/progress.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/progress.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/progress.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/progress.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/rail.css": {
+	"\/weather\/components\/rail.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rail.css",
+		"inputAbbreviatedPath": "\/weather\/components\/rail.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/rail.min.css": {
+	"\/weather\/components\/rail.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rail.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/rail.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/rating.css": {
+	"\/weather\/components\/rating.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rating.css",
+		"inputAbbreviatedPath": "\/weather\/components\/rating.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/rating.js": {
+	"\/weather\/components\/rating.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rating.js",
-		"outputAbbreviatedPath": "\/components\/min\/rating-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/rating.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/rating-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/rating.min.css": {
+	"\/weather\/components\/rating.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rating.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/rating.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/rating.min.js": {
+	"\/weather\/components\/rating.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/rating.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/rating.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/rating.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/rating.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/reset.css": {
+	"\/weather\/components\/reset.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/reset.css",
+		"inputAbbreviatedPath": "\/weather\/components\/reset.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/reset.min.css": {
+	"\/weather\/components\/reset.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/reset.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/reset.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/reveal.css": {
+	"\/weather\/components\/reveal.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/reveal.css",
+		"inputAbbreviatedPath": "\/weather\/components\/reveal.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/reveal.min.css": {
+	"\/weather\/components\/reveal.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/reveal.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/reveal.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/search.css": {
+	"\/weather\/components\/search.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/search.css",
+		"inputAbbreviatedPath": "\/weather\/components\/search.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/search.js": {
+	"\/weather\/components\/search.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/search.js",
-		"outputAbbreviatedPath": "\/components\/min\/search-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/search.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/search-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/search.min.css": {
+	"\/weather\/components\/search.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/search.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/search.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/search.min.js": {
+	"\/weather\/components\/search.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/search.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/search.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/search.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/search.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/segment.css": {
+	"\/weather\/components\/segment.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/segment.css",
+		"inputAbbreviatedPath": "\/weather\/components\/segment.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/segment.min.css": {
+	"\/weather\/components\/segment.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/segment.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/segment.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/shape.css": {
+	"\/weather\/components\/shape.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/shape.css",
+		"inputAbbreviatedPath": "\/weather\/components\/shape.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/shape.js": {
+	"\/weather\/components\/shape.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/shape.js",
-		"outputAbbreviatedPath": "\/components\/min\/shape-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/shape.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/shape-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/shape.min.css": {
+	"\/weather\/components\/shape.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/shape.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/shape.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/shape.min.js": {
+	"\/weather\/components\/shape.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/shape.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/shape.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/shape.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/shape.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/sidebar.css": {
+	"\/weather\/components\/sidebar.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sidebar.css",
+		"inputAbbreviatedPath": "\/weather\/components\/sidebar.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/sidebar.js": {
+	"\/weather\/components\/sidebar.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sidebar.js",
-		"outputAbbreviatedPath": "\/components\/min\/sidebar-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/sidebar.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/sidebar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/sidebar.min.css": {
+	"\/weather\/components\/sidebar.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sidebar.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/sidebar.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/sidebar.min.js": {
+	"\/weather\/components\/sidebar.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sidebar.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/sidebar.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/sidebar.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/sidebar.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/site.css": {
+	"\/weather\/components\/site.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/site.css",
+		"inputAbbreviatedPath": "\/weather\/components\/site.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/site.js": {
+	"\/weather\/components\/site.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/site.js",
-		"outputAbbreviatedPath": "\/components\/min\/site-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/site.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/site-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/site.min.css": {
+	"\/weather\/components\/site.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/site.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/site.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/site.min.js": {
+	"\/weather\/components\/site.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/site.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/site.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/site.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/site.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/state.js": {
+	"\/weather\/components\/state.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/state.js",
-		"outputAbbreviatedPath": "\/components\/min\/state-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/state.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/state-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/state.min.js": {
+	"\/weather\/components\/state.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/state.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/state.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/state.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/state.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/statistic.css": {
+	"\/weather\/components\/statistic.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/statistic.css",
+		"inputAbbreviatedPath": "\/weather\/components\/statistic.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/statistic.min.css": {
+	"\/weather\/components\/statistic.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/statistic.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/statistic.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/step.css": {
+	"\/weather\/components\/step.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/step.css",
+		"inputAbbreviatedPath": "\/weather\/components\/step.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/step.min.css": {
+	"\/weather\/components\/step.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/step.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/step.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/sticky.css": {
+	"\/weather\/components\/sticky.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sticky.css",
+		"inputAbbreviatedPath": "\/weather\/components\/sticky.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/sticky.js": {
+	"\/weather\/components\/sticky.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sticky.js",
-		"outputAbbreviatedPath": "\/components\/min\/sticky-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/sticky.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/sticky-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/sticky.min.css": {
+	"\/weather\/components\/sticky.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sticky.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/sticky.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/sticky.min.js": {
+	"\/weather\/components\/sticky.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/sticky.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/sticky.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/sticky.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/sticky.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/tab.css": {
+	"\/weather\/components\/tab.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/tab.css",
+		"inputAbbreviatedPath": "\/weather\/components\/tab.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/tab.js": {
+	"\/weather\/components\/tab.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/tab.js",
-		"outputAbbreviatedPath": "\/components\/min\/tab-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/tab.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/tab-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/tab.min.css": {
+	"\/weather\/components\/tab.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/tab.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/tab.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/tab.min.js": {
+	"\/weather\/components\/tab.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/tab.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/tab.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/tab.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/tab.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/table.css": {
+	"\/weather\/components\/table.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/table.css",
+		"inputAbbreviatedPath": "\/weather\/components\/table.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/table.min.css": {
+	"\/weather\/components\/table.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/table.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/table.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/transition.css": {
+	"\/weather\/components\/transition.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/transition.css",
+		"inputAbbreviatedPath": "\/weather\/components\/transition.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/transition.js": {
+	"\/weather\/components\/transition.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/transition.js",
-		"outputAbbreviatedPath": "\/components\/min\/transition-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/transition.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/transition-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/transition.min.css": {
+	"\/weather\/components\/transition.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/transition.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/transition.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/transition.min.js": {
+	"\/weather\/components\/transition.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/transition.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/transition.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/transition.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/transition.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/video.css": {
+	"\/weather\/components\/video.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/video.css",
+		"inputAbbreviatedPath": "\/weather\/components\/video.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/video.js": {
+	"\/weather\/components\/video.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/video.js",
-		"outputAbbreviatedPath": "\/components\/min\/video-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/video.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/video-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/video.min.css": {
+	"\/weather\/components\/video.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/video.min.css",
+		"inputAbbreviatedPath": "\/weather\/components\/video.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/components\/video.min.js": {
+	"\/weather\/components\/video.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/video.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/video.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/video.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/video.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/visibility.js": {
+	"\/weather\/components\/visibility.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/visibility.js",
-		"outputAbbreviatedPath": "\/components\/min\/visibility-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/visibility.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/visibility-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/visibility.min.js": {
+	"\/weather\/components\/visibility.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/visibility.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/visibility.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/visibility.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/visibility.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/visit.js": {
+	"\/weather\/components\/visit.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/visit.js",
-		"outputAbbreviatedPath": "\/components\/min\/visit-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/visit.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/visit-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/components\/visit.min.js": {
+	"\/weather\/components\/visit.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/components\/visit.min.js",
-		"outputAbbreviatedPath": "\/components\/min\/visit.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/components\/visit.min.js",
+		"outputAbbreviatedPath": "\/weather\/components\/min\/visit.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/css\/semantic.css": {
+	"\/weather\/css\/semantic.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/semantic.css",
+		"inputAbbreviatedPath": "\/weather\/css\/semantic.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/semantic.min.css": {
+	"\/weather\/css\/semantic.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/semantic.min.css",
+		"inputAbbreviatedPath": "\/weather\/css\/semantic.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/css\/styles.css": {
+	"\/weather\/css\/styles.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/styles.css",
+		"inputAbbreviatedPath": "\/weather\/css\/styles.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index.html": {
+	"\/weather\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
+		"inputAbbreviatedPath": "\/weather\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/js\/jquery.simpleWeather.min.js": {
+	"\/weather\/js\/jquery.simpleWeather.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/jquery.simpleWeather.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/jquery.simpleWeather.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/js\/jquery.simpleWeather.min.js",
+		"outputAbbreviatedPath": "\/weather\/js\/min\/jquery.simpleWeather.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/min\/scripts-min.js": {
+	"\/weather\/js\/min\/scripts-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/min\/scripts-min.js",
-		"outputAbbreviatedPath": "\/js\/min\/min\/scripts-min-min.js",
+		"inputAbbreviatedPath": "\/weather\/js\/min\/scripts-min.js",
+		"outputAbbreviatedPath": "\/weather\/js\/min\/min\/scripts-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/scripts.js": {
+	"\/weather\/js\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/scripts.js",
-		"outputAbbreviatedPath": "\/js\/min\/scripts-min.js",
+		"inputAbbreviatedPath": "\/weather\/js\/scripts.js",
+		"outputAbbreviatedPath": "\/weather\/js\/min\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/semantic.js": {
+	"\/weather\/js\/semantic.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/semantic.js",
-		"outputAbbreviatedPath": "\/js\/min\/semantic-min.js",
+		"inputAbbreviatedPath": "\/weather\/js\/semantic.js",
+		"outputAbbreviatedPath": "\/weather\/js\/min\/semantic-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/semantic.min.js": {
+	"\/weather\/js\/semantic.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/semantic.min.js",
-		"outputAbbreviatedPath": "\/js\/min\/semantic.min-min.js",
+		"inputAbbreviatedPath": "\/weather\/js\/semantic.min.js",
+		"outputAbbreviatedPath": "\/weather\/js\/min\/semantic.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/themes\/default\/assets\/images\/flags.png": {
+	"\/weather\/themes\/default\/assets\/images\/flags.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28123,
-		"inputAbbreviatedPath": "\/themes\/default\/assets\/images\/flags.png",
-		"outputAbbreviatedPath": "\/themes\/default\/assets\/images\/flags.png",
+		"inputAbbreviatedPath": "\/weather\/themes\/default\/assets\/images\/flags.png",
+		"outputAbbreviatedPath": "\/weather\/themes\/default\/assets\/images\/flags.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
