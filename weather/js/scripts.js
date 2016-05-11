@@ -9,11 +9,21 @@ $(document).ready(function() {
 
       $(".city").html(weather.city);
 			$(".temp").html(weather.temp);
+
+      if (weather.temp < 50 ) {
+          $("body").addClass("cold");
+      }else if (weather.temp > 50 ) {
+          $("body").addClass("hot");
+      } else {
+        $("body").addClass("black");
+      }
+
+      $(".temp").html(weather.temp);
 			$(".cond-code").html(weather.currently);
 
     },
     error: function(error) {
-      console().log( error );
+
       $("#weather").html('<p>'+error+'</p>');
     }
   });

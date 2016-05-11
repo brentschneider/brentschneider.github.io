@@ -4,8 +4,21 @@ body {
   background: rgba(255, 255, 234, .80);
 }
 
+ul {
+  list-style: none;
+}
 li {
   font-size: 1.5em;
   line-height: 1.65em;
-  
+}
+.cold {
+  background: rgba(136, 190, 90, .80);
+}
+
+.hot {
+  background: rgba(234, 90, 80, .90);
+}
+
+.black {
+  background: rgba(0, 0, 0, .90);
 }
