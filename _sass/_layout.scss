@@ -32,7 +32,7 @@
         display: none;
     }
 
-    .page-link {
+    .page-link, .page-link-current {
         color: $text-color;
         line-height: $base-line-height;
 
@@ -40,6 +40,13 @@
         &:not(:last-child) {
             margin-right: 20px;
         }
+    }
+    .page-link:link, .page-link-current:link {
+      text-decoration: none;
+    }
+
+    .page-link-current {
+     border-bottom: 3px solid $brand-color;
     }
 
     @include media-query($on-palm) {
@@ -65,7 +72,7 @@
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: $brand-color;
                 }
             }
         }
