@@ -4,6 +4,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+<!--
+
+  _
+  \\
+   \\
+    \\
+   (----)     Author: Brent Schneider
+   |    |     Date: July 2016
+   |    |     Project: Personal site
+    \  /
+     )(
+   _/__\_
+   ‾‾‾‾‾‾
+
+-->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
