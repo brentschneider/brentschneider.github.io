@@ -7,14 +7,13 @@
 
 # Site settings
 title: Brent Schneider
+subTitle: Hailing from The Great PNW
 email: info [at] milkshakeinteractive.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: "<p><span class='intro'>Proudly crafted</span> with <a href='http://jekyllrb.com' target='_blank'>Jekyll</a>, a Ruby-based site generator that uses <a href='http://docs.shopify.com/themes/liquid-basics' target='_blank'>Liquid</a> as its templating language, versioning using <a href='https://git-scm.com' target='_blank'>git</a>, and deployed to <a href='https://pages.github.com/' target='_blank'>GitHub pages</a>.</p>."
 url: "http://brentschneider.github.io/" # the base hostname & protocol for your site
 twitter_username: webmedic
-github_username:  brentschneider
+github_username: brentschneider
+linkedin_username: thebrentschneider
 
 # Build settings
 markdown: kramdown

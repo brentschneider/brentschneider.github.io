@@ -1,28 +1,37 @@
 <head>
+  <!--
+
+    _
+    \\
+     \\
+      \\
+     (----)     Author: Brent Schneider
+     |    |     Date: July 2016
+     |    |     Project: Personal site
+      \  /
+       )(
+     _/__\_
+     ‾‾‾‾‾‾
+
+  -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Brent Schneider"/>
+  <meta name="contact" content="info@milkshakeinteractive.com" />
+  <meta name="url" content="http://brentschneider.github.io" />
+  <meta property="og:title" content="Brent Schneider"/>
+  <meta property="og:type" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta property="og:url" content="http://brentschneider.github.io"/>
+  <meta property="og:site_name" content="Brent Schneider" />
+  <meta property="og:description" content="A personal site  end web competition"/>
+  <meta property="og:locality" content="Spokane" />
+  <meta property="og:region" content="WA" />
+  <meta property="og:postal-code" content="99201" />
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-<!--
-
-  _
-  \\
-   \\
-    \\
-   (----)     Author: Brent Schneider
-   |    |     Date: July 2016
-   |    |     Project: Personal site
-    \  /
-     )(
-   _/__\_
-   ‾‾‾‾‾‾
-
--->
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
 </head>

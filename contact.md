@@ -3,4 +3,30 @@ title: Contact
 layout: default
 ---
 
-When it comes down to it, I love sharing my passion with others, helping people learn and I take pride in providing great work for my client's. Thanks for your time, feel free to contct [@webmedic](http://twitter.com/webmedic) or email  __{{ site.email }}__...
+<section class="post-header">
+  <h1>Let's talk</h1>
+</section>
+
+
+Thanks for your interest, feel free to connect:
+
+<ul class="contact-list">
+
+  {% if site.github_username %}
+  <li>
+    {% include icon-github.html username=site.github_username %}
+  </li>
+  {% endif %}
+
+  {% if site.twitter_username %}
+  <li>
+    {% include icon-twitter.html username=site.twitter_username %}
+  </li>
+  {% endif %}
+  {% if site.linkedin_username %}
+  <li>
+    {% include icon-linkedin.html username=site.linkedin_username %}
+  </li>
+  {% endif %}
+  <li>{% include icon-email.html %}</li>
+</ul>

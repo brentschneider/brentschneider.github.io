@@ -1,7 +1,8 @@
 ---
 title: "Git Command line cheat sheet"
+permalink: /blog/:title
 quote: quick reference for the most commonly used Git commands.
-image: /media/2014-11-21-Git-Command-Line-Cheat-Sheet/cover.jpg
+image: /img/media/2014-11-21-Git-Command-Line-Cheat-Sheet/cover.jpg
 ---
 
 Git is an open source version control system that enables developers to work together on projects while maintaining a history of what was changed and by who.

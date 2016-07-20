@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -26,7 +24,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -34,9 +31,9 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: 1em / 2;
+    line-height: 2em;
 }
-
 
 
 /**
@@ -46,7 +43,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
 
 
 /**
@@ -61,10 +57,10 @@ figcaption {
 }
 
 
-
 /**
  * Lists
  */
+
 ul, ol {
     margin-left: $spacing-unit;
 }
@@ -77,34 +73,34 @@ li {
 }
 
 
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-weight: $base-font-weight * .02em;
 }
-
 
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: $link-color;
     text-decoration: none;
+    transition: all 0.6s ease 0s;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color:  $link-color;
     }
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $link-color-hover;
+        text-decoration: none;
     }
 }
-
-
+.intro {
+  font-weight: bold;
+}
 
 /**
  * Blockquotes
@@ -121,7 +117,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
 
 
 /**
@@ -151,7 +146,6 @@ pre {
 }
 
 
-
 /**
  * Wrapper
  */
@@ -162,6 +156,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    padding-bottom: $spacing-unit * 2;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -171,7 +166,6 @@ pre {
         padding-left: $spacing-unit / 2;
     }
 }
-
 
 
 /**
@@ -185,7 +179,6 @@ pre {
         clear: both;
     }
 }
-
 
 
 /**

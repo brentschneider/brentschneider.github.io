@@ -1,7 +1,8 @@
 ---
 title: "Using diskutil from the command line"
+permalink: /blog/:title
 quote: command line tips for the Mac
-image: /media/2014-08-05-Using-diskutil-from-the-command-line/cover.jpg
+image: /img/media/2014-08-05-Using-diskutil-from-the-command-line/cover.jpg
 ---
 
 Disk Utility is an application that's built into OS X, located in the Macintosh HD > Applications > Utilities folder.

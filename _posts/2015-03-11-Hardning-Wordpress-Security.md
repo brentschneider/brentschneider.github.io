@@ -1,7 +1,8 @@
 ---
 title: "Hardening wordpress"
+permalink: /blog/:title
 quote: Anything you decide to apply to harden WordPress security will help.
-image: false
+image: /img/media/cover.jpg
 ---
 
 ##Ever wondered why WordPress is such a popular target for hackers?

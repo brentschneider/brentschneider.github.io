@@ -1,15 +1,16 @@
 ---
 title: "Using web inspector on mobile devices"
+permalink: /blog/:title
 quote: Ghost is an open source publishing platform which is easy to use, and free for everyone.
-image: /media/2015-02-16-Ghost/cover.jpg
-comments: false
+image: /img/media/cover.jpg
+background_position: top
 ---
 
 
 
 <h1 id="{{ post.title}}">{{post.title}}</h1>
 
-Remote debugging tools provide an interface to connect to a mobile device from a desktop computer. Doing this, you can debug for a mobile device using the development tools on a more powerful, easier-to-use desktop machine.</p>
+Remote debugging tools provide an interface to connect to a mobile device from a desktop computer. Doing this, you can debug for a mobile device using the development tools on a more powerful, easier-to-use desktop machine.
 
 ### Android
 

@@ -1,7 +1,8 @@
 ---
 title: "Setting DNS on Dreamhost to github pages"
+permalink: /blog/:title
 quote: Setting up your custom domain name
-image: /media/2014-06-26-dreamhost-and-gitpages/cover.jpg
+image: /img/media/cover.jpg
 ---
 
 # How to point your custom domain name to GitHub Pages

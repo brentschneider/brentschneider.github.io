@@ -1,8 +1,8 @@
 ---
 title: "Designing clean mobile apps"
+permalink: /blog/:title
 quote: Keep it simple, clean, & user focused
-image: /media/2014-07-26-Designing-clean-apps/cover.jpg
-video: false
+image: /img/media/2014-07-26-Designing-clean-apps/cover.jpg
 ---
 
 # A mobile first approach to campus dining app
