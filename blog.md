@@ -19,7 +19,6 @@ permalink: /blog/
 
     </ul>
 
-    {{ content }}
   </div>
 
 </article>
