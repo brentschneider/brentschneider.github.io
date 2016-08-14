@@ -66,8 +66,8 @@ layout: default
 
     <defs>
         <linearGradient x1="60%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#DE4012" offset="0%"></stop>
-            <stop stop-color="#ed4716" offset="100%"></stop>
+          <stop stop-color="#e93220" offset="0%"></stop>
+          <stop stop-color="#e13322" offset="100%"></stop>
         </linearGradient>
     </defs>
 
