@@ -1,14 +1,11 @@
 ---
 title: "Git Command line cheat sheet"
 permalink: /blog/:title
-quote: quick reference for the most commonly used Git commands.
+quote: a quick reference for the most commonly used Git commands.
 image: /img/media/2014-11-21-Git-Command-Line-Cheat-Sheet/cover.jpg
 ---
 
-Git is an open source version control system that enables developers to work together on projects while maintaining a history of what was changed and by who.
-
-At first it can seem overwhelming but with steady practice the learning curve isn't all that steep.
-<br />
+Git is an open source version control system that enables developers to work together on projects while maintaining a history of what was changed and by who. At first, it can seem overwhelming but with steady practice, the learning curve isn't all that steep.
 <br />
 
 ### Set up git in new local directory
@@ -18,80 +15,83 @@ $ git init
 $ git status
 ```
 
-### Set up your remote repo
-At this point we will want to create a new repository space on GitHub/gitlabs/bitbucket.
-In this article I will be using github.
+### Set up your __remote__ repository.
 
-Find the create new project button, enter a name for your repository.
-There are a number of optional items, lets leave them alone for now > click Create repository.
+At this point, we are going to create a new repo in either GitHub, Gitlabs, or Bitbucket. *For this article I'm using GitHub.* Sign in, locate the create new project button and enter a name for your repository along with a brief description of your project.
+<br><br>
+
+Next, Let's leave the rest of the options as default, for now, > click Create repository.
+
+
+Copy the repo's url ` https://github.com/username/ProjectName.git`
+<br><br>
+
+### Back on our local machine:
+
+Let's set the remote origin for our project.
+
+  `$ git remote add origin https://github.com/username/ProjectName.git`
+
+__If for some reason you need to change the remote URL:__
+
+  `git remote set-url origin https://github.com/USERNAME/NEWREPOSITORY.git`
+
+---
 <br />
-Copy the repo's url  ...https://github.com/username/ProjectName.git
+### Adding your first file to the new repo
 
-Back on our command line let's set the remote origin for our project.
-
-`$ git remote add origin https://github.com/username/ProjectName.git`
-
-
-- __If for some reason you need to change the remote URL:__
-
-    `git remote set-url origin https://github.com/USERNAME/NEWREPOSITORY.git`
-
-###Next
-
-Every good project has a readme file.
+Every good project has a readme.md file.
 
 `$ touch README.md`
 
+*if you are not familiar with Markdown* [documentation](https://help.github.com/articles/github-flavored-markdown/)
+<br>
 
-- You may edit your README.md file, if you are not familiar with [Markdown](https://help.github.com/articles/github-flavored-markdown/) check it out.
+Typing `Git status` should reveal __README.md__ as an Untracked file.
+<br />
 
-
-`Git status` should reveal README.md as an Untracked file.
-<br /><br />
-Time to ADD the file to our project for tracking.
-
+Let's add it to our local repo.
 `$ git add README.md`
-<br /><br />
-Next, lets commit our change to the project.
+<br />
+
+Next, __commit__ our file to the project, also give us the option to make note of our changes.
 
 `$ git commit -m "first commit adding README.md to our project"`
-<br /><br />
-We are not done yet, the project is local. Next step is to push these changes to our repo on Github.
+<br />
+
+Lastly once __added__ and __committed__ we are going to __push__ the change from out local project up to the repo on GitHub.
 
 `$ git push origin master`
 
+Switch over to our browser, hit refresh to double check that the files are in the repo you just pushed.
 
-Switch over to our github account and double check that the files are in the repo you just pushed.
-Now all we have to do in your project is __add__, __commit__, __push__, & __pull__ changes to/from our project.
+That's it, you should see your file reflected in your GitHub repo.
 
+---
+<br />
 
-__Shortcut:__ use `git commit -am "added a detailed message to this commit"` to add and commit at the same time.
+# Your new Montra
 
+__add__ (a file) <br />
+__commit__ (your work) <br />
+__push__ (to origin/branch) <br />
+__pull__ (newest changes before creating new work) <br />
 
-#More info:
-
-
-### Git Cheat Sheet:
-
-    [github-git-cheat-sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-
-
-
+<br />
+__Shortcut:__ use `git commit -am "added a detailed message to this commit"` to add & commit  all at once.
+<br />
+---
+<br />
 ### Git Clone
 
 The git clone command copies an existing Git repository. This is sort of like svn checkout, except the “working copy” is a full-fledged Git repository—it has its own history, manages its own files, and is a completely isolated environment from the original repository.
 
 As a convenience, cloning automatically creates a remote connection called origin pointing back to the original repository. This makes it very easy to interact with a central repository.
-
-
-
-
-
-
-
 <br>
-<br>
+
 ## Referances & Resources:
+
+[github-git-cheat-sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 [Official Git](http://git-scm.com/)
 
@@ -107,7 +107,7 @@ As a convenience, cloning automatically creates a remote connection called origi
 
 <br>
 <br>
-### 'On the line' learning sites
+### On line learning sites
 
 [Challenge practice:](https://try.github.io/levels/1/challenges/1)
 
