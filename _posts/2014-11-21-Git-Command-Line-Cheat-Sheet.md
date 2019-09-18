@@ -15,17 +15,16 @@ Set up git in the local folder/directory you want to track changes by entering t
 $ git init
 $ git status
 ```
-
+<br>
 ### 2) Set up your __remote__ repository on GitHub.
 
 At this point, reate a new repo in either GitHub, Gitlabs, or Bitbucket. *For this article, I'm using GitHub.* Sign in, locate the create new project button and enter a name for your repository along with a brief description of your project.
-<br>
 <br>
 
 Next, leave the rest of the options as default, > click Create repository (repo).
 
 Copy the repo's url `https://github.com/YOUR-USERNAME/PROJECT-NAME.git`
-
+<br>
 ### 3) Switch back on our local machine:
 
 We will set the remote origin for our project.
@@ -33,7 +32,7 @@ We will set the remote origin for our project.
 ```
 $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
 ```
-
+<br>
 > __Q: Can I add more than one remote location?__
 >
 > Yes, in addition to the origin set above say add another remote location.
@@ -43,8 +42,7 @@ $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
 >__If you need to change the remote URL:__
 >`git remote set-url origin https://github.com/YOUR-USERNAME/NEW-REPOSITORY.git`
 <br>
-
-
+<br>
 ### 4) Adding your files to the repo
 
 A. Every good project has a readme.md file.
@@ -52,16 +50,14 @@ A. Every good project has a readme.md file.
 ```
 $ touch README.md
 ```
-
+<br>
 B. Typing `Git status` will reveal __README.md__ as an Untracked file.
 <br />
-
 C. Let's add it to our local repo.
 ```
 $ git add README.md
 ```
 <br />
-
 D. Next, we will __commit__ the file to the project. This also lets us note our changes.
 
 ```
@@ -74,31 +70,22 @@ E. Finally, since the file is __added__ and __committed__ now we will __push__ t
 ```
 $ git push origin master
 ```
-
+<br>
 Open a browser and navigate to your repo on github to see the changes you just pushed.
 
 🥁 ... That's it, congratulations now you know how to commit changes locally and to gitHub. 🎉
-
 <br /><br />
-*if you are not familiar with Markdown* [documentation](https://help.github.com/articles/github-flavored-markdown/)
-
-<br /><br />
-
----
-
 # Our new montra 📢
 
 __add__ (a file) <br />
 __commit__ (your work) <br />
 __push__ (to origin/branch) <br />
 __pull__ (newest changes before creating new work)
-
 <br />
 *__Shortcut:__ to add & commit  all at once: `git commit -am "added a detailed message to this commit"`*
 <br /><br />
 
 ---
-
 
 ### Git Clone
 
@@ -112,23 +99,23 @@ As a convenience, cloning automatically creates a remote connection called origi
 
 ### 1. Clone your fork:
 
-    git clone git@github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
-
+	git clone git@github.com/YOUR-USERNAME/YOUR-FORKED-REPO.git
+<br>
 ### 2. Add remote from original repository in your forked repository: 
 
-    cd into/cloned/fork-repo
-    git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
-    git fetch upstream
-
+	cd into/cloned/fork-repo
+	git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+	git fetch upstream
+<br>
 ### 3. Updating your fork from original repo to keep up with their changes:
 
-    git pull upstream master
-
+	git pull upstream master
+<br>
 # setting up .gitignore file
 
 First let's remove the existing files from the repository:
 
-`find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch`
+	`find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch`
 
 Now add the line to your .gitignore file, which is at the top level of your repository (or create one if it isn't there already).
 
@@ -140,6 +127,8 @@ Then add and commit the file
 git add .gitignore
 git commit -m '.DS_Store banished!'
 ```
+
+*if you are not familiar with Markdown* [documentation](https://help.github.com/articles/github-flavored-markdown/)
 
 ## Referances & Resources:
 
