@@ -7,25 +7,28 @@ image: /img/media/2014-11-21-Git-Command-Line-Cheat-Sheet/cover.jpg
 
 Git is an open source version control system that enables developers to work together on projects while maintaining a history of what changed and by who. At first, it can seem overwhelming but with steady practice, the learning curve isn't all that steep.
 
-### Set up git in new local directory
+### 1) Starting with setup
+
+Set up git in the local folder/directory you want to track changes by entering the following command.
 
 ```
 $ git init
 $ git status
 ```
 
-### Set up your __remote__ repository.
+### 2) Set up your __remote__ repository on GitHub.
 
-At this point, we are going to create a new repo in either GitHub, Gitlabs, or Bitbucket. *For this article, I'm using GitHub.* Sign in, locate the create new project button and enter a name for your repository along with a brief description of your project.
-<br><br>
+At this point, reate a new repo in either GitHub, Gitlabs, or Bitbucket. *For this article, I'm using GitHub.* Sign in, locate the create new project button and enter a name for your repository along with a brief description of your project.
+<br>
+<br>
 
-Next, Let's leave the rest of the options as default, for now, > click Create repository (repo).
+Next, leave the rest of the options as default, > click Create repository (repo).
 
 Copy the repo's url `https://github.com/YOUR-USERNAME/PROJECT-NAME.git`
 
-### Back on our local machine:
+### 3) Switch back on our local machine:
 
-Let's set the remote origin for our project.
+We will set the remote origin for our project.
 
 ```
 $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
@@ -33,13 +36,9 @@ $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
 
 __Q: Can I add more than one remote location?__
 
-Yes, in addition to the origin set above say add another remote location.
-
-```
-git remote add github https://github.com/Company_Name/repository_name.git
-
-```
-Now you can push to two different remote locations.
+ Yes, in addition to the origin set above say add another remote location.
+`git remote add github https://github.com/Company_Name/repository_name.git`
+ Now you can push to two different remote locations.
 
 
 __If you need to change the remote URL:__
@@ -49,34 +48,33 @@ git remote set-url origin https://github.com/YOUR-USERNAME/NEW-REPOSITORY.git
 ```
 <br>
 
----
 
-### Adding your first file to the new repo
+### 4) Adding your files to the repo
 
-Every good project has a readme.md file.
+A. Every good project has a readme.md file.
 
 ```
 $ touch README.md
 ```
 
 
-Typing `Git status` will reveal __README.md__ as an Untracked file.
+B. Typing `Git status` will reveal __README.md__ as an Untracked file.
 <br />
 
-Let's add it to our local repo.
+C. Let's add it to our local repo.
 ```
 $ git add README.md
 ```
 <br />
 
-Next, we will __commit__ the file to the project. This also lets us note our changes.
+D. Next, we will __commit__ the file to the project. This also lets us note our changes.
 
 ```
 $ git commit -m "first commit adding README.md to our project"
 ```
 <br />
 
-Finally, since the file is __added__ and __committed__ now we will __push__ the new changes from out local project up to the repo on GitHub.
+E. Finally, since the file is __added__ and __committed__ now we will __push__ the new changes from out local project up to the repo on GitHub.
 
 ```
 $ git push origin master
@@ -84,15 +82,16 @@ $ git push origin master
 
 Open a browser and navigate to your repo on github to see the changes you just pushed.
 
-That's it, congratulations now you know how to commit changes locally and to gitHub.
+🥁 ... That's it, congratulations now you know how to commit changes locally and to gitHub. 🎉
 
+<br /><br />
 *if you are not familiar with Markdown* [documentation](https://help.github.com/articles/github-flavored-markdown/)
 
 <br /><br />
 
 ---
 
-# Our new montra
+# Our new montra 📢
 
 __add__ (a file) <br />
 __commit__ (your work) <br />
