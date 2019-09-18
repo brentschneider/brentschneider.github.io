@@ -37,12 +37,14 @@ $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
 >
 > Yes, in addition to the origin set above say add another remote location.
 >`git remote add github https://github.com/Company_Name/repository_name.git`
+>
 > Now you can push to two different remote locations.
 >
 >__If you need to change the remote URL:__
 >`git remote set-url origin https://github.com/YOUR-USERNAME/NEW-REPOSITORY.git`
-<br>
-<br>
+
+<br />
+
 ### 4) Adding your files to the repo
 
 A. Every good project has a readme.md file.
@@ -52,6 +54,7 @@ $ touch README.md
 ```
 <br>
 B. Typing `Git status` will reveal __README.md__ as an Untracked file.
+<br />
 <br />
 C. Let's add it to our local repo.
 ```
@@ -74,8 +77,8 @@ $ git push origin master
 Open a browser and navigate to your repo on github to see the changes you just pushed.
 
 🥁 ... That's it, congratulations now you know how to commit changes locally and to gitHub. 🎉
-<br /><br />
-# Our new montra 📢
+<br />
+# What's our new montra? 📢
 
 __add__ (a file) <br />
 __commit__ (your work) <br />
