@@ -34,18 +34,14 @@ We will set the remote origin for our project.
 $ git remote add origin https://github.com/YOUR-USERNAME/PROJECT-NAME.git
 ```
 
-__Q: Can I add more than one remote location?__
-
- Yes, in addition to the origin set above say add another remote location.
-`git remote add github https://github.com/Company_Name/repository_name.git`
- Now you can push to two different remote locations.
-
-
-__If you need to change the remote URL:__
-
-```
-git remote set-url origin https://github.com/YOUR-USERNAME/NEW-REPOSITORY.git
-```
+> __Q: Can I add more than one remote location?__
+>
+> Yes, in addition to the origin set above say add another remote location.
+>`git remote add github https://github.com/Company_Name/repository_name.git`
+> Now you can push to two different remote locations.
+>
+>__If you need to change the remote URL:__
+>`git remote set-url origin https://github.com/YOUR-USERNAME/NEW-REPOSITORY.git`
 <br>
 
 
@@ -56,7 +52,6 @@ A. Every good project has a readme.md file.
 ```
 $ touch README.md
 ```
-
 
 B. Typing `Git status` will reveal __README.md__ as an Untracked file.
 <br />
