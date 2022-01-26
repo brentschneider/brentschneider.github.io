@@ -1,3 +1,4 @@
+
 ---
 title: "Git Command line cheat sheet"
 permalink: /blog/:title
@@ -87,6 +88,17 @@ __pull__ (newest changes before creating new work)
 <br />
 *__Shortcut:__ to add & commit  all at once: `git commit -am "added a detailed message to this commit"`*
 <br /><br />
+
+
+### Push new local branch to repo
+
+First time push
+
+```git push --set-upstream origin {Name of local branch}:{Name of remote branch}```
+
+Then afterwards
+
+```git push -u origin {Name of remote branch}```
 
 ---
 
