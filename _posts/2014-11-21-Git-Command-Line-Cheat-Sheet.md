@@ -1,4 +1,3 @@
-
 ---
 title: "Git Command line cheat sheet"
 permalink: /blog/:title
