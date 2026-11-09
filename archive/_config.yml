@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Brent Schneider
+subTitle: Hailing from The Great PNW
+email: info [at] milkshakeinteractive.com
+description: "<p><span class='intro'>Proudly crafted</span> with <a href='http://jekyllrb.com' target='_blank'>Jekyll</a>, a Ruby-based site generator that uses <a href='http://docs.shopify.com/themes/liquid-basics' target='_blank'>Liquid</a> as its templating language, versioning using <a href='https://git-scm.com' target='_blank'>git</a>, and deployed to <a href='https://pages.github.com/' target='_blank'>GitHub pages</a>.</p>."
+url: "http://brentschneider.github.io/" # the base hostname & protocol for your site
+twitter_username: webmedic
+github_username: brentschneider
+linkedin_username: thebrentschneider
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+# Default settings for posts
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Brent Schneider
+      layout: "post"
+      comments: false
