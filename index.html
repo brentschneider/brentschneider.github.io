@@ -1,93 +1,356 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brent Schneider — TL;DR</title>
+<meta name="description" content="Brent Schneider is a Director of Product Design in Spokane, WA. Design systems, government and enterprise modernization, and AI in production.">
+<meta name="theme-color" content="#261646">
+<style>
+  :root {
+    --bg: #261646;
+    --bg-raised: #301c58;
+    --bg-deep: #1d1036;
+    --line: rgba(255,255,255,.14);
+    --text: #f4f1fb;
+    --muted: #c9c0e0;
+    --accent: #1188ff;
+    --accent-soft: #5aa9ff;
+    --radius: 14px;
+    --max: 960px;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 400 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent-soft); text-underline-offset: 3px; }
+  a:hover { color: #fff; }
+  :focus-visible { outline: 3px solid var(--accent-soft); outline-offset: 3px; border-radius: 4px; }
+  .skip {
+    position: absolute; left: 1rem; top: -4rem; background: var(--accent); color: #fff;
+    padding: .6rem 1rem; border-radius: 8px; z-index: 10; text-decoration: none;
+  }
+  .skip:focus { top: 1rem; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 1.5rem; }
+  header.hero {
+    position: relative; overflow: hidden; display: flex; align-items: center;
+    min-height: clamp(32rem, 84vh, 47rem); padding: 4.5rem 0;
+    border-bottom: 1px solid var(--line);
+    background: radial-gradient(120% 90% at 85% 40%, #34205f 0%, var(--bg) 60%);
+  }
+  header.hero::before {
+    content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+    background: linear-gradient(90deg, rgba(38,22,70,.92) 0%, rgba(38,22,70,.7) 38%, rgba(38,22,70,0) 72%);
+  }
+  .hero-bg { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; }
+  .hero-inner { position: relative; z-index: 2; width: 100%; }
+  .hero-copy { max-width: 35rem; }
+  .hero-bg .spin, .hero-bg .float, .hero-bg .blob, .hero-bg .drift { transform-box: fill-box; transform-origin: center; }
+  .hero-bg .spin { animation: spin 60s linear infinite; }
+  .hero-bg .spin.rev { animation-duration: 40s; animation-direction: reverse; }
+  .hero-bg .float { animation: float 7s ease-in-out infinite; }
+  .hero-bg .blob { animation: blob 16s ease-in-out infinite alternate; }
+  .hero-bg .blob.b2 { animation-duration: 21s; animation-delay: -6s; }
+  .hero-bg .blob.b3 { animation-duration: 18s; animation-delay: -3s; }
+  .hero-bg .drift { animation: drift 9s ease-in-out infinite alternate; }
+  .hero-bg .drift.d2 { animation-duration: 12s; animation-delay: -4s; }
+  .hero-bg .drift.d3 { animation-duration: 10s; animation-delay: -2s; }
+  .hero-bg .drift.d1 { animation-duration: 8s; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes float { 0%,100% { transform: translateY(-14px); } 50% { transform: translateY(14px); } }
+  @keyframes blob { from { transform: translate(-40px, 20px) scale(1); } to { transform: translate(40px, -30px) scale(1.12); } }
+  @keyframes drift { from { transform: translate(0, 0) rotate(0deg); } to { transform: translate(18px, -26px) rotate(25deg); } }
+  .cta-sm { gap: .6rem; }
+  .cta-sm .btn { padding: .55rem 1.1rem; font-size: .9rem; min-height: 40px; border-width: 1.5px; }
+  .eyebrow {
+    font-size: .8125rem; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent-soft); font-weight: 600; margin: 0 0 1rem;
+  }
+  h1 { font-size: clamp(2.5rem, 7vw, 4.25rem); line-height: 1.05; margin: 0 0 1.25rem; letter-spacing: -.02em; }
+  .lede { font-size: clamp(1.15rem, 2.4vw, 1.45rem); line-height: 1.45; color: var(--muted); max-width: 42rem; margin: 0 0 2rem; }
+  .lede strong { color: var(--text); font-weight: 600; }
+  .cta { display: flex; flex-wrap: wrap; gap: .75rem; }
+  .btn {
+    display: inline-block; padding: .85rem 1.4rem; border-radius: 999px; font-weight: 600;
+    text-decoration: none; border: 2px solid var(--accent); min-height: 44px;
+  }
+  .btn.primary { background: var(--accent); color: #fff; }
+  .btn.primary:hover { background: #0a74dc; border-color: #0a74dc; color: #fff; }
+  .btn.ghost { color: var(--text); }
+  .btn.ghost:hover { background: rgba(17,136,255,.18); color: #fff; }
+  section { padding: 3.25rem 0; border-bottom: 1px solid var(--line); }
+  section:last-of-type { border-bottom: 0; }
+  h2 { font-size: 1.75rem; margin: 0 0 1.5rem; letter-spacing: -.01em; }
+  h3 { font-size: 1.125rem; margin: 0 0 .4rem; }
+  p { margin: 0 0 1rem; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1rem; margin: 0; padding: 0; list-style: none; }
+  .stats li { background: var(--bg-raised); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.25rem; }
+  .stat-num { display: block; font-size: 2.25rem; font-weight: 700; line-height: 1.1; color: #fff; }
+  .stat-label { display: block; margin-top: .35rem; color: var(--muted); font-size: .9375rem; line-height: 1.4; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+  .card { background: var(--bg-raised); border: 1px solid var(--line); border-radius: var(--radius); padding: 1.5rem; }
+  .card p { color: var(--muted); margin: 0; }
+  .tag { display: inline-block; font-size: .75rem; letter-spacing: .08em; text-transform: uppercase; color: var(--accent-soft); font-weight: 600; margin-bottom: .6rem; }
+  /* Projects: large feature tiles */
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.25rem; }
+  .feature {
+    display: flex; flex-direction: column; position: relative; overflow: hidden;
+    padding: 1.75rem; min-height: 21rem; border-radius: 20px; text-decoration: none; color: var(--text);
+    background: linear-gradient(160deg, #3a2270 0%, var(--bg-raised) 55%, var(--bg-deep) 100%);
+    border: 1px solid var(--line);
+    transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
+  }
+  .feature::after {
+    content: ""; position: absolute; inset: auto -30% -45% auto; width: 70%; aspect-ratio: 1;
+    background: radial-gradient(circle, rgba(17,136,255,.35), transparent 65%);
+    opacity: .5; transition: opacity .25s ease, transform .35s ease; pointer-events: none;
+  }
+  .feature:hover, .feature:focus-visible {
+    transform: translateY(-6px); border-color: var(--accent);
+    box-shadow: 0 18px 40px rgba(0,0,0,.4), 0 0 0 1px var(--accent); color: var(--text);
+  }
+  .feature:hover::after, .feature:focus-visible::after { opacity: 1; transform: scale(1.15); }
+  .feature-num { font-size: clamp(2rem, 4.5vw, 2.75rem); font-weight: 700; letter-spacing: -.02em; line-height: 1.05; margin-bottom: 1.25rem; color: #fff; }
+  .feature p { color: var(--muted); }
+  .feature-cta { margin-top: auto; padding-top: 1rem; font-weight: 600; color: var(--accent-soft); position: relative; z-index: 1; }
+  .feature .arrow { display: inline-block; transition: transform .2s ease; }
+  .feature:hover .arrow { transform: translateX(6px); }
+  .feature:hover .feature-cta { color: #fff; }
 
-<section class="post-header">
-  <h1>My creative works & inspiration</h1>
+  @media (prefers-reduced-motion: reduce) {
+    .feature, .arrow, .feature::after { transition: none; }
+    .feature:hover, .feature:focus-visible { transform: none; }
+    .hero-bg * { animation: none !important; }
+  }
+  .pills { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; padding: 0; list-style: none; }
+  .pills li { border: 1px solid var(--accent); border-radius: 999px; padding: .45rem 1rem; font-size: .9375rem; background: rgba(17,136,255,.12); }
+  .two { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+  ul.plain { margin: 0; padding-left: 1.2rem; color: var(--muted); }
+  ul.plain li { margin-bottom: .55rem; }
+  ul.plain strong { color: var(--text); font-weight: 600; }
+  .links { display: grid; gap: .6rem; margin: 0; padding: 0; list-style: none; }
+  .links a { display: inline-block; min-height: 44px; padding: .55rem 0; }
+  .contact { background: var(--bg-deep); border-radius: var(--radius); padding: 2rem; border: 1px solid var(--line); }
+  footer { padding: 2.5rem 0 4rem; color: var(--muted); font-size: .9375rem; }
+  footer p { margin: 0 0 .6rem; max-width: 46rem; }
+  @media (max-width: 560px) {
+    header.hero { padding: 3rem 0 2.5rem; min-height: 0; }
+    .hero-bg { opacity: .55; }
+    header.hero::before { background: linear-gradient(90deg, rgba(38,22,70,.9), rgba(38,22,70,.55)); }
+    .contact .btn { width: 100%; text-align: center; }
+    .contact { padding: 1.5rem; }
+  }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <svg class="hero-bg" viewBox="0 0 1200 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+    <defs>
+      <radialGradient id="g1"><stop offset="0" stop-color="#1188ff" stop-opacity=".55"/><stop offset="1" stop-color="#1188ff" stop-opacity="0"/></radialGradient>
+      <radialGradient id="g2"><stop offset="0" stop-color="#8a4dff" stop-opacity=".5"/><stop offset="1" stop-color="#8a4dff" stop-opacity="0"/></radialGradient>
+      <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#fff" stroke-opacity=".06"/></pattern>
+    </defs>
+    <rect width="1200" height="700" fill="url(#grid)"/>
+    <circle class="blob b1" cx="900" cy="250" r="270" fill="url(#g1)"/>
+    <circle class="blob b2" cx="1060" cy="540" r="230" fill="url(#g2)"/>
+    <circle class="blob b3" cx="500" cy="620" r="180" fill="url(#g1)" opacity=".6"/>
+    <g transform="translate(880 350)">
+      <g class="spin slow">
+        <circle r="260" fill="none" stroke="#fff" stroke-opacity=".22" stroke-width="1.5" stroke-dasharray="3 14"/>
+        <circle cx="260" cy="0" r="9" fill="#1188ff"/>
+        <circle cx="-184" cy="184" r="6" fill="#fff" fill-opacity=".8"/>
+      </g>
+      <g class="spin rev">
+        <circle r="195" fill="none" stroke="#1188ff" stroke-opacity=".6" stroke-width="2" stroke-dasharray="90 40"/>
+        <polygon points="130,0 65,112.6 -65,112.6 -130,0 -65,-112.6 65,-112.6" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="1.5"/>
+      </g>
+      <g class="float">
+        <circle r="95" fill="none" stroke="#5aa9ff" stroke-opacity=".7" stroke-width="2"/>
+        <circle r="60" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="1.5"/>
+      </g>
+    </g>
+    <g class="drift d1"><rect x="640" y="130" width="36" height="36" rx="6" fill="none" stroke="#5aa9ff" stroke-opacity=".7" stroke-width="2"/></g>
+    <g class="drift d2"><circle cx="1110" cy="150" r="10" fill="#fff" fill-opacity=".7"/></g>
+    <g class="drift d3"><circle cx="720" cy="590" r="14" fill="none" stroke="#fff" stroke-opacity=".4" stroke-width="2"/></g>
+    <g class="drift d1"><circle cx="1140" cy="420" r="6" fill="#1188ff"/></g>
+  </svg>
+  <div class="wrap hero-inner">
+   <div class="hero-copy">
+    <p class="eyebrow">Spokane, WA</p>
+    <h1>Brent Schneider</h1>
+    <p class="lede"><strong>Director of Product Design.</strong> I build design systems, modernize government and enterprise services, and ship artificial intelligence (AI) into production.</p>
+    <div class="cta cta-sm">
+      <a class="btn primary" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0tAxms9weD3Vud17mB6sx20ENr00mSUs7uBFCvdMR3VWLOiqStriLpf5akJp4pkWa2_c51wN9r?gv=true">Book a conversation</a>
+      <a class="btn ghost" href="mailto:hello@brentschneider.com">Email me</a>
+      <a class="btn ghost" href="https://brentschneider.com/work">See the work</a>
+    </div>
+   </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section aria-labelledby="now">
+  <div class="wrap">
+    <h2 id="now">Right now</h2>
+    <div class="two">
+      <div>
+        <h3>Coforma</h3>
+        <p>Director of Product Design at a civic technology consultancy. I lead the product design function inside a multidisciplinary experience practice focused on federal digital services.</p>
+      </div>
+      <div>
+        <h3>Milkshake Interactive</h3>
+        <p>My web design and development agency in Spokane, Washington, for small businesses and local brands.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
-<div class=" home">
-  <br />
-   <section>
-    <ul id="gallery" class="gallery">
+<section aria-labelledby="numbers">
+  <div class="wrap">
+    <h2 id="numbers">By the numbers</h2>
+    <ul class="stats">
+      <li><span class="stat-num">20+</span><span class="stat-label">years of design experience</span></li>
+      <li><span class="stat-num">12</span><span class="stat-label">designers in the practice I lead, while staying hands-on</span></li>
+      <li><span class="stat-num">~100k</span><span class="stat-label">U.S. Department of Veterans Affairs (VA) staff who used VA GPT</span></li>
+      <li><span class="stat-num">3</span><span class="stat-label">brands on one Centers for Medicare &amp; Medicaid Services (CMS) design system</span></li>
+      <li><span class="stat-num">153</span><span class="stat-label">designers mentored</span></li>
+    </ul>
+  </div>
+</section>
 
-        
-    <li>
-        <a href="img/img-opensource.png" class="galleryLink">
-        <img src="img/img-opensource.png" alt=""></a>
-        <p>First major <a href="https://github.com/brentschneider/pybee.github.io">open source contribution</a></p></li>
-            
-     <li>
-        <a href="img/img-Eastern.png" class="galleryLink">
-        <img src="img/img-Eastern.png" alt=""></a>
-        <p><a href="https://invis.io/4BCL00OQM#/247504536_2-0_Academics_-_Wireframe">UX Development</a> on Easterns Digital Initittive team</p></li>
-          
-     <li>
-        <a href="img/img-DjangoConUS.png" class="galleryLink">
-        <img src="img/img-DjangoConUS.png" alt=""></a>
-        <p>Spokane advicate & organizer <a href="https://2017.djangocon.us">2017 DjangoCon US</a></p></li>
-    
-     <li>
-        <a href="img/img-cardboard.png" class="galleryLink">
-        <img src="img/img-cardboard.png" alt=""></a>
-        <p>VR cardboard Vinyl sticker wrap</p></li>
+<section aria-labelledby="projects">
+  <div class="wrap">
+    <h2 id="projects">Three projects worth knowing</h2>
+    <div class="features">
+      <a class="feature" href="https://brentschneider.com/work">
+        <span class="feature-num" aria-hidden="true">~100k</span>
+        <span class="tag">AI in production</span>
+        <h3>VA AI Pilots</h3>
+        <p>Led design of a conversational AI tool for clinical staff, connected to live patient data. “VA GPT” was used by nearly 100,000 staff.</p>
+        <span class="feature-cta">See the work <span class="arrow" aria-hidden="true">→</span></span>
+      </a>
+      <a class="feature" href="https://brentschneider.com/work">
+        <span class="feature-num" aria-hidden="true">3 brands</span>
+        <span class="tag">Design systems</span>
+        <h3>CMS Design System</h3>
+        <p>Matured a multi-brand system serving Healthcare.gov, Medicare.gov, and CMS.gov, including a global header aligned across all three.</p>
+        <span class="feature-cta">See the work <span class="arrow" aria-hidden="true">→</span></span>
+      </a>
+      <a class="feature" href="https://brentschneider.com/work">
+        <span class="feature-num" aria-hidden="true">Paper → digital</span>
+        <span class="tag">Modernization</span>
+        <h3>IRS ITIN Paper-to-Digital</h3>
+        <p>Led design of a low-code intake workflow that replaced paper processing for Internal Revenue Service (IRS) Individual Taxpayer Identification Number (ITIN) applications.</p>
+        <span class="feature-cta">See the work <span class="arrow" aria-hidden="true">→</span></span>
+      </a>
+    </div>
+    <p style="margin-top:1.25rem;color:var(--muted);font-size:.9375rem">Work covered by non-disclosure agreements (NDAs) shows only public proof points.</p>
+  </div>
+</section>
 
-     <li>
-        <a href="img/img-citd.jpg" class="galleryLink">
-        <img src="img/img-citd.jpg" alt=""></a>
-        <p>Organized 2016 & 17 frontend competition in <a href="https://codeinthedarkspokane.com/" target="_blank">Spokane</a></p></li>
+<section aria-labelledby="good-at">
+  <div class="wrap">
+    <h2 id="good-at">What I’m good at</h2>
+    <ul class="pills">
+      <li>Design systems, 0-to-1 through enterprise scale</li>
+      <li>Modernizing government and enterprise services</li>
+      <li>Responsible AI integration</li>
+      <li>Scaled agile delivery</li>
+      <li>Accessibility and equity</li>
+      <li>Workshop facilitation</li>
+    </ul>
+  </div>
+</section>
 
-     <li>
-        <a href="img/img-eagle.jpg" class="galleryLink">
-        <img src="img/img-eagle.jpg" alt=""></a>
-        <p>Eagle icon for EWU <a href="https://about.gitlab.com/" target="_blank"> Gitlabs</a></p></li>
+<section aria-labelledby="pov">
+  <div class="wrap">
+    <div class="two">
+      <div>
+        <h2 id="pov">Point of view</h2>
+        <ul class="plain">
+          <li><strong>Craft matters.</strong> Egoless, direct, honest feedback makes better work.</li>
+          <li><strong>Humans stay in the loop.</strong> AI gets governed, not just adopted.</li>
+          <li><strong>Prototype to persuade.</strong> I show what’s possible instead of describing it.</li>
+          <li><strong>Forward-deployed designers.</strong> Seasoned operators close the distance between insight and delivery, from research to client alignment in two days.</li>
+        </ul>
+      </div>
+      <div>
+        <h2>How I work</h2>
+        <ul class="plain">
+          <li>Front-loaded meetings, then focused time for deep work.</li>
+          <li>Short ad-hoc check-ins instead of standing meetings.</li>
+          <li>Some of my best work happens in the evening.</li>
+          <li>I lead by building, not by slide deck.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
-     <li>
-        <a href="img/img-oneup.png" class="galleryLink">
-        <img src="img/img-oneup.png" alt=""></a>
-        <p>My web III Makey Makey project: <a href="http://codepen.io/brentschneider/pen/YWyYGp"target="_blank">codepen</a></p></li>
+<section aria-labelledby="exploring">
+  <div class="wrap">
+    <h2 id="exploring">Currently exploring</h2>
+    <div class="features">
+      <a class="feature" href="https://brentschneider.github.io/ai-flows-for-designers/">
+        <span class="feature-num" aria-hidden="true">12 steps</span>
+        <span class="tag">Guide</span>
+        <h3>AI flows for designers</h3>
+        <p>Twelve steps answering where designers fit in AI workflows, written while co-leading the AI &amp; Design Community of Practice at Coforma.</p>
+        <span class="feature-cta">Read the guide <span class="arrow" aria-hidden="true">↗</span></span>
+      </a>
+      <a class="feature" href="https://medium.com/@webmedic/the-rise-of-the-forward-deployed-designer-45651a67c1ec?sharedUserId=webmedic">
+        <span class="feature-num" aria-hidden="true">2 days</span>
+        <span class="tag">Article</span>
+        <h3>The rise of the forward-deployed designer</h3>
+        <p>Moving from research to client alignment in two days.</p>
+        <span class="feature-cta">Read the article <span class="arrow" aria-hidden="true">↗</span></span>
+      </a>
+      <a class="feature" href="https://brentschneider.github.io/brent-media-podcast/">
+        <span class="feature-num" aria-hidden="true">Prototype</span>
+        <span class="tag">Experiment</span>
+        <h3>Podcast player</h3>
+        <p>Built iteratively with a command-line coding assistant.</p>
+        <span class="feature-cta">Try the prototype <span class="arrow" aria-hidden="true">↗</span></span>
+      </a>
+    </div>
+  </div>
+</section>
 
-     <li>
-        <a href="img/img-vr.png" class="galleryLink">
-        <img src="img/img-vr.png" alt=""></a>
-        <p>Icon concept for VR</p></li>
+<section aria-labelledby="contact">
+  <div class="wrap">
+    <div class="contact">
+      <h2 id="contact">Work with me</h2>
+      <p>Reach out about design leadership, design systems, AI-in-design workshops, or a website through Milkshake Interactive.</p>
+      <div class="cta" style="margin-bottom:1.5rem">
+        <a class="btn primary" href="https://calendar.google.com/calendar/appointments/schedules/AcZssZ0tAxms9weD3Vud17mB6sx20ENr00mSUs7uBFCvdMR3VWLOiqStriLpf5akJp4pkWa2_c51wN9r?gv=true">Book a conversation</a>
+        <a class="btn ghost" href="mailto:hello@brentschneider.com">hello@brentschneider.com</a>
+      </div>
+      <ul class="links">
+        <li><a href="https://brentschneider.com/">brentschneider.com</a></li>
+        <li><a href="https://www.linkedin.com/in/thebrentschneider/">LinkedIn</a></li>
+        <li><a href="https://github.com/brentschneider">GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-     <li>
-        <a href="img/img-marmot.png" class="galleryLink">
-        <img src="img/img-marmot.png" alt=""></a>
-        <p>Washington State + Spokane + Marmot = icon</p></li>
+</main>
 
-     <li>
-        <a href="img/img-handlettering.jpg" class="galleryLink">
-        <img src="img/img-handlettering.jpg" alt=""></a>
-        <p>Experimentation with hand lettering</p></li>
-
-     <li>
-        <a href="img/img-ui.jpg" class="galleryLink">
-        <img src="img/img-ui.jpg" alt=""></a>
-        <p>Prototype UI design for EWU Dining app</p></li>
-
-     <li>
-        <a href="img/img-coffee.jpg" class="galleryLink">
-        <img src="img/img-coffee.jpg" alt=""></a>
-        <p>Heart coffee, Portland</p></li>
-
-     <li>
-        <a href="img/img-ink.jpg" class="galleryLink">
-        <img src="img/img-ink.jpg" alt=""></a>
-        <p>Breaking out my old school ink set</p></li>
-
-     <li>
-        <a href="img/img-art.jpg" class="galleryLink">
-        <img src="img/img-art.jpg" alt=""></a>
-        <p>My 8bit art project <a href="https://www.flickr.com/photos/artfulpersuasion/albums/72157629247889765" target="_blank">more images on flickr</a></p></li>
-
-     <li>
-        <a href="img/img-persona.jpg" class="galleryLink">
-        <img src="img/img-persona.jpg" alt=""></a>
-        <p>Persona photo layout</p></li>
-
-     </ul>
-   </section>
-
-</div>
+<footer>
+  <div class="wrap">
+    <p>I live and work on the traditional lands of the Spokane Tribe of Indians, and I honor them as the land’s stewards.</p>
+    <p>© <span id="year">2026</span> Brent Schneider</p>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
